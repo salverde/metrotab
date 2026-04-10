@@ -1,0 +1,49 @@
+
+
+/* @font-face {
+  font-family: 'FAMILY_NAME';
+  font-stretch: PERCENTAGE_RANGE_LOW_TO_HIGH; 
+  font-style: NORMAL_OR_ITALIC;
+  font-weight: NUMERIC_RANGE_LOW_TO_HIGH;
+  src: url(FONT_FILE_NAME.woff2) format('woff2');
+}  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=boska@700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=styro@400&display=swap');
+
+.vina-sans-regular {
+  font-family: "Vina Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.federo-regular {
+  font-family: "Federo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+header {
+  font-family: var(--sans-serif-font);
+}
+
+
+.home-title {
+  font-family: 'Federo', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page-header,
+.section-title,
+.article-title {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+

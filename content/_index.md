@@ -2,9 +2,9 @@
 title = "Latest posts"
 
 [extra]
-header = { title = "Hi, I'm YOUR_NAME! 👋", img = "img/profile.webp", img_alt = "YOUR_NAME" }
+header = { title = "Welcome to metrotab!", img = "img/metro.svg", img_alt = "s13e" }
 section_path = "blog/_index.md"
 max_posts = 5
 +++
 
-Welcome to my personal site!
+Lorem ipsum dolor sit amet, sed officia do tempor in. Reprehenderit aliquip tempor sint ullamco sunt magna. Non nostrud est officia cillum. Eiusmod nulla dolore dolor cupidatat excepteur culpa.
