@@ -18,7 +18,7 @@ So throughout all these different verticals in the stack I was always working on
 
 Here's some more info about me:
 
-- Currently in New Mexico
+- Resides in New Mexico
 - Father of tres Amigos
 - Pastimes include enjoying making sound effects, spending time with my wife and kiddos, and tinkering with sound pedal hardware
 - Taught myself guitar repair and lutherie craftsmanship. I enjoy crafting on all things guitar and amplification of sound
