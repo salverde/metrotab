@@ -1,25 +1,36 @@
 +++
 title = "Little Homage to Forgetfoo"
 date = "2026-04-10"
+updated = "2026-05-06"
 description = "Some styles and bits taking from forgetfoo on this blog."
 
 [taxonomies]
-tags = ["microblog", "bvb"]
+tags = ["eyecandy", "bvb", "shoutout"]
 
 +++
 
-So not sure if anyone here remembers the ever so classic blog circa 2012 ish forgetfoo.com? But it used to be a lovely little blog ran by [xxx] for many years. Had lots of interesting news articles and topics surrounding current events at the time. But more interestingly he used to have posts on Babe vs. Babe and various eye candy (wallpaper esqe) imagery every week. Well this is something I miss and gonna try to bring back here at metrotab! I figured why not? its a fun little taxonomy of sorts! Perhaps I'll throw in some gear surveys. Not to mention this theme I'm running with makes it super easy and clean to post these type of content.
+So not sure if anyone here remembers the ever so classic blog circa 2012 ish forgetfoo.com?  It used to be a lovely little blog ran by (don't remember) for many years. Had lots of interesting news articles and topics surrounding current events at the time. But more interestingly he used to have fun little posts like Babe vs. Babe (showcasing a model vs. model in a cute little survey like manner) and various eye candy (wallpaper esqe) imagery every week. Been a little nostalgic with this blog lately and figured this is something Im gonna try to bring back here at metrota! I figured why not? its a fun little taxonomy! Perhaps I'll throw in some gear vs gear surveys as well. Not to mention this theme I'm running with makes it super easy and clean to post this type of content.
 
 So with no further a do... Which is it?
 
+{{ image_toggler(
+    default_src="0pwrg3.jpg",
+    toggled_src="x1vkjl.jpg",
+    default_alt="Babe 01",
+    toggled_alt="Babe 02")
+}}
+> click on image to toggle between babes
 
-[babe] vs. [babe]
+And to continue with my homage to ~~forgetfoo.com~~, here's some eye candy for your viewing pleasure...
 
-(*2 pics of each babe switched when hovered...*)
+{{ full_width_image(src="e722jo.jpg", alt="") }}
 
+---
 
+{{ full_width_image(src="21evdy.png", alt="") }}
 
-I mean this isn't gonna be some super creepster blog only geeking out on beauties like these, just FYI. I do plan on a series or something around some music content. TBD. no spoilers at this time!
+---
 
+{{ full_width_image(src="3z5616.png", alt="") }}
 
 
