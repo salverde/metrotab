@@ -1,5 +1,5 @@
 base_url = "https://YOUR_URL.TLD"
-title = "metrotab"
+title = "metrota"
 description = "the modernized site for s13e"
 author = "s13e"
 theme = "tabi"
@@ -31,6 +31,8 @@ index_format = "elasticlunr_json"
 [markdown]
 bottom_footnotes = true
 smart_punctuation = true
+
+external_links_class = "external"
 
 [markdown.highlighting]
 theme = "catppuccin-frappe"
@@ -130,7 +132,7 @@ show_date = true
 # "date" - Show only the original date of the post (default if unset).
 # "updated" - Show only the last updated date of the post. If there is no last updated date, it shows the original date.
 # "both" - Show both the original date and the last updated date.
-post_listing_date = "date"
+post_listing_date = "both"
 
 # Enable iine like buttons on all posts: https://iine.to/
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -213,7 +215,7 @@ date_formats = [
 ]
 
 # Custom separator used in title tag and posts metadata (between date, time to read, and tags).
-separator = "•"
+separator = "⥋"
 
 # Use a shorter layout for All tags listing.
 # Default: tag_name – n post[s]
@@ -252,7 +254,7 @@ menu = [
     { name = "blog",        url = "blog", trailing_slash = true },
     { name = "about",       url = "about", trailing_slash = true },
     { name = "uses",        url = "uses", trailing_slash = true },
-    { name = "projects",    url = "projects", trailing_slash = true },
+    # { name = "projects",    url = "projects", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set.
@@ -280,8 +282,9 @@ socials = [
     { name = "github",      url = "https://github.com/salverde",    icon = "github" },
     { name = "gitlab",      url = "https://gitlab.com/salverde",    icon = "gitlab" },
     { name = "instagram",   url = "https://instagram.com/s13e.ig",  icon = "instagram" },
-    { name = "keybase",     url = "https://keybase.io/s13e",          icon = "keybase" },
-    { name = "reddit",      url = "https://reddit.com/salomoko",       icon = "reddit" },
+    { name = "keybase",     url = "https://keybase.io/s13e",        icon = "keybase" },
+    { name = "reddit",      url = "https://reddit.com/salomoko",    icon = "reddit" },
+    # { name = "codementor",  url = "https://codementor.com/@s13e",   icon = "codementor" },
 ]
 
 # Fediverse profile.
@@ -303,7 +306,7 @@ socials = [
 # $AUTHOR will be replaced by the `author` variable.
 # $SEPARATOR will be replaced by the `separator` variable.
 # Markdown is supported (links, emphasis, etc).
-copyright = "$CURRENT_YEAR $TITLE 🄯 $AUTHOR"
+copyright = "🄯 $CURRENT_YEAR $TITLE $SEPARATOR $AUTHOR"
 
 # For multi-language sites, you can set a different copyright for each language.
 # The old way of setting `translated_copyright = true` and using i18n files is deprecated.
@@ -318,12 +321,12 @@ copyright = "$CURRENT_YEAR $TITLE 🄯 $AUTHOR"
 # This configuration (along with the right webserver settings) gets an A+ in Mozilla's Observatory: https://observatory.mozilla.org
 # Note: to use a Zola built-in syntax highlighting theme, allow unsafe-inline for style-src.
 allowed_domains = [
-    { directive = "font-src", domains = ["'self'", "data:", "fonts.googleapis.com", "cdn.fontshare.com", "api.fontshare.com", "fonts.gstatic.com"] },
-    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
-    { directive = "media-src", domains = ["'self'"] },
+    { directive = "font-src",   domains = ["'self'", "data:", "fonts.googleapis.com", "cdn.fontshare.com", "api.fontshare.com", "fonts.gstatic.com"] },
+    { directive = "img-src",    domains = ["'self'", "https://*", "data:"] },
+    { directive = "media-src",  domains = ["'self'"] },
     { directive = "script-src", domains = ["'self'"] },
-    { directive = "style-src", domains = ["'self'", "fonts.googleapis.com", "cdn.fontshare.com", "api.fontshare.com"] },
-    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
+    { directive = "style-src",  domains = ["'self'", "fonts.googleapis.com", "cdn.fontshare.com", "api.fontshare.com"] },
+    { directive = "frame-src",  domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
 ]
 
 # Enable the CSP directives configured (or default).

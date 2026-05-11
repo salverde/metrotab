@@ -1,0 +1,8 @@
+name = "metrota"
+compatibility_date = "2026-05-11"
+
+[build]
+command = "./build.sh"
+
+[assets]
+directory = "./public"
