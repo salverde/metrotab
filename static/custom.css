@@ -9,41 +9,30 @@
 }  */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=boska@700&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=styro@400&display=swap');
-
-.vina-sans-regular {
-  font-family: "Vina Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.federo-regular {
-  font-family: "Federo", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-
-header {
-  font-family: var(--sans-serif-font);
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Boldonse&display=swap'); */
+@import url('https://api.fontshare.com/v2/css?f[]=array@600&f[]=plein@701&display=swap');
 
 
 .home-title {
-  font-family: 'Federo', serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'Array', sans-serif;
+
+  font-size: 40px;
 }
 
+#banner-container-home {
+  padding-top: 4rem;
+}
+
+#home-banner-text #home-banner-header {
+  font-family: "Plein", sans-serif;
+}
+
+/* 
 .page-header,
 .section-title,
 .article-title {
   font-size: 1.5em;
   font-weight: 700;
-}
+} */
 
 
